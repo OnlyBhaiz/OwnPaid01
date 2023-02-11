@@ -443,20 +443,20 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▮▯▯"
+            text="▣□□"
         )
         await query.message.edit_text(
-            text="▮▮▯"
+            text="▣▣□"
         )
         await query.message.edit_text(
-            text="▮▮▮"
+            text="▣▣▣"
         )
         await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await query.answer('𝙿𝙻𝙴𝙰𝚂𝙴 𝚂𝙷𝙰𝚁𝙴 𝙰𝙽𝙳 𝚂𝚄𝙿𝙿𝙾𝚁𝚃')
+        await query.answer('Join @DaDa_Linkz ⚡')
     elif query.data == "help":
         buttons = [[
             InlineKeyboardButton('', callback_data=''),
@@ -469,13 +469,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="▮▯▯"
+            text="▣□□"
         )
         await query.message.edit_text(
-            text="▮▮▯"
+            text="▣▣□"
         )
         await query.message.edit_text(
-            text="▮▮▮"
+            text="▣▣▣"
         )
         await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),

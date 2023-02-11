@@ -463,7 +463,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('', callback_data='')
         ], [
             InlineKeyboardButton('', callback_data=''),
-            InlineKeyboardButton('', callback_data='')
+            InlineKeyboardButton('🏠 H𝙾𝙼𝙴 ', callback_data='start'),
         ], [
             InlineKeyboardButton('Developer 🫣', url='https://t.me/DaDaXBhai'),
         ]]

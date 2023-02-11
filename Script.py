@@ -18,9 +18,9 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """
-╭────[ About Me 🤧 ]────⍟
+╭────[ <b>About Me 🤧</b> ]────⍟
 │
-├⍟ Meh Name : DaDa Auto Filter ⚡
+├⍟ Meh Name : <b>DaDa Auto Filter</b> ⚡
 ├⍟ Developer : <a href=https://t.me/DaDa_Offil></b><b>DaDa Bhai</b></a>
 ├⍟ Version : v1.0.1 [ Beta ]
 ├⍟ Server : Heroku

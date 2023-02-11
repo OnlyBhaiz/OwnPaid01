@@ -15,8 +15,8 @@ class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/MsFilmFactory_Bot')
     START_TXT = environ.get("START_TXT", '''<b>Hello</b> {},
 <b>My Name is</b> <a href=https://t.me/{}>{}</a>,\n\n<b>I Can Provide MOVIES/SERIES And Lot More... Don't Waste Your Time by Looking To Add Me To Your Group & Enjoy Meh Power🤌🏻😎 </b>''')
-    HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+    HELP_TXT = """<b>Hey Bro </b> {},
+<b>JOIN 👀</b> <a href=https://t.me/DaDa_Offil></b><b>DaDa Bhai</b></a>"""
     ABOUT_TXT = """
 ╭────[ <b>About Me 🤧</b> ]────⍟
 │

@@ -14,7 +14,7 @@ def is_enabled(value, default):
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/MsFilmFactory_Bot')
     START_TXT = environ.get("START_TXT", '''Hello {},
-Myself <a href=https://t.me/{}>{}</a>,\n\nTrust me ! I have more than 1 million files to serve you \n\nKeep Support Me''')
+Myself <a href=https://t.me/{}>{}</a>,\n\n<b>I Can Provide MOVIES/SERIES And Lot More... Don't Waste Your Time by Looking To Add Me To Your Group & Enjoy Meh Power</b>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """

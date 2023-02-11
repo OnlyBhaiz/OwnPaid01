@@ -1,14 +1,11 @@
-##MS-TAMIL-BOTZ
+FROM python:3.10
 
-FROM python:3.10-slim-buster
+WORKDIR /Dadabhai02
 
-RUN apt update && apt upgrade -y
-RUN apt install git -y
-COPY requirements.txt /requirements.txt
+COPY requirements.txt ./
 
-RUN cd /
-RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /LazyPrincessV2
-WORKDIR /LazyPrincessV2
-COPY start.sh /start.sh
-CMD ["/bin/bash", "/start.sh"]
+RUN pip install -r requirements.txt
+
+copy . .
+
+CMD ["python3", "bot.py"]

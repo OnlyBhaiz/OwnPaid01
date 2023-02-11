@@ -1,5 +1,0 @@
-##MS-TAMIL-BOTZ
-
-build:
-  docker:
-      worker: Dockerfile

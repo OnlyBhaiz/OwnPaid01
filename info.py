@@ -40,6 +40,8 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Haashim:Haashim@mfile0
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
+BASE_URL_OF_BOT = ('https://dadabhai.onrender.com')
+
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001616832136'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')

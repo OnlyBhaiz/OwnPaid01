@@ -106,14 +106,14 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
-        <i>Database Status 📶</i> 
-            ❛ ━━･❪ ❁ ❫ ･━━ ❜
-
+─── ⋆⋅☆⋅⋆ ──<i>Database Status 📶</i>─── ⋆⋅☆⋅⋆ ──
+        
 ➣ <b>Total Files</b>: <code>{}</code>
 ➣ <b>Total Users</b>: <code>{}</code>
 ➣ <b>Total Chats</b>: <code>{}</code>
 ➣ <b>Used Storage</b>: <code>{}</code> 𝙼𝚒𝙱
-➣ <b>Free Storage</b>: <code>{}</code> 𝙼𝚒𝙱"""
+➣ <b>Free Storage</b>: <code>{}</code> 𝙼𝚒𝙱
+            ❛ ━━･❪ ❁ ❫ ･━━ ❜"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>

@@ -21,7 +21,7 @@ class script(object):
 ├⍟ My Name : <b>DaDa Auto Filter</b> ⚡
 ├⍟ Developer : <a href=https://t.me/DaDa_Offil></b><b>DaDa Bhai</b></a>
 ├⍟ Version : v1.0.1 [ Beta ]
-├⍟ Server : <a href=https://t.me/https://t.me/DaDaXBhai/12></b><b>24/7 Free Host</b></a>
+├⍟ Server : <a href=https://t.me/DaDaXBhai/12></b><b>24/7 Free Host</b></a>
 ├⍟ Language : Python 3.10.3
 ├⍟ Framework : Pyrogram 1.4.16 
 │

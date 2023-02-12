@@ -1,4 +1,4 @@
-##MS-TAMIL-BOTZ
+
 import re
 from os import environ
 
@@ -107,6 +107,7 @@ This module only works for my admins
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
         <i>Database Status 📶</i> 
+            ❛ ━━･❪ ❁ ❫ ･━━ ❜
 
 ➣ <b>Total Files</b>: <code>{}</code>
 ➣ <b>Total Users</b>: <code>{}</code>

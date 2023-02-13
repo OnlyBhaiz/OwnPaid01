@@ -44,7 +44,7 @@ BASE_URL = ('https://dadabhai.onrender.com')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001616832136'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Dada_linkz')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)

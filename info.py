@@ -1,4 +1,4 @@
-##MS-TAMIL-BOTZ
+
 import re
 from os import environ
 
@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '17765492'))
 API_HASH = environ.get('API_HASH', '88682d63aba6c3036eda72a70924b577')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5517810656:AAEgfVBikKG_0sConkeEXqcbJiGofYjalQA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5843935085:AAGUJ1LaYloPotpIbZRBYcZUGgEpYdNJMqo")
 
 #Port
 PORT = environ.get("PORT", "8080")

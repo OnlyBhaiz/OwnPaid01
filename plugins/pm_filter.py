@@ -160,7 +160,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝚃𝙷𝙸𝚂 𝙼𝙾𝚅𝙸𝙴 I𝚂 𝙽𝙾𝚃 𝚈𝙴𝚃 𝚁𝙴𝙻𝙴𝙰𝚂𝙴𝙳 𝙾𝚁 𝙰𝙳𝙳𝙴𝙳 𝚃𝙾 𝙳𝙰𝚃𝚂𝙱𝙰𝚂𝙴 💌')
+            k = await query.message.edit('𝗧𝗵𝗶𝘀 𝗠𝗼𝘃𝗶𝗲 𝗡𝗼𝘁 𝗙𝗼𝘂𝗻𝗱 𝗜𝗻 𝗗𝗮𝘁𝗮𝗕𝗮𝘀𝗲 😔 ! 𝗣𝗹𝗲𝗮𝘀𝗲  𝗥𝗲𝗽𝗼𝗿𝘁 𝗧𝗼 𝗕𝗢𝗧 𝗔𝗱𝗺𝗶𝗻 @DadaLinkzAdmin_Bot')
             await asyncio.sleep(10)
             await k.delete()
 

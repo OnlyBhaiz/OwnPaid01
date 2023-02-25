@@ -12,8 +12,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '17765492'))
-API_HASH = environ.get('API_HASH', '88682d63aba6c3036eda72a70924b577')
+API_ID = int(environ.get('API_ID', '17271772'))
+API_HASH = environ.get('API_HASH', '897542330c90728e4e7fef57f42f9c79)
 BOT_TOKEN = environ.get('BOT_TOKEN', "5843935085:AAGUJ1LaYloPotpIbZRBYcZUGgEpYdNJMqo")
 
 #Port
@@ -29,7 +29,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001840435951').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001810314862')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001713227264')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -47,9 +47,9 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Dada_linkz')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), False)
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>📝𝑭𝒊𝒍𝒆 𝑵𝒂𝒎𝒆</b> : `{file_name}` \n\n<b>🖇️ 𝑺𝒊𝒛𝒆</b> - {file_size} \n\n<b>𝐽𝑜𝑖𝑛 𝑀𝑜𝑣𝑖𝑒𝑠 𝑈𝑝𝑑𝑎𝑡𝑒𝑠</b> <b>[ DADA LINKZ ](T.me/dada_linkz)</b>")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>📝𝑭𝒊𝒍𝒆 𝑵𝒂𝒎𝒆</b> : `{file_name}` \n\n<b>🖇️ 𝑺𝒊𝒛𝒆</b> - {file_size} \n\n<b>𝐽𝑜𝑖𝑛 𝑀𝑜𝑣𝑖𝑒𝑠 𝑈𝑝𝑑𝑎𝑡𝑒𝑠</b> <b>[ TSP THUNDER 4.0 Official ](T.me/TSPTHUNDER4OFFICIAL)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "**🎞 Tɪᴛʟᴇ** : <a href={url}>{title}</a> \n\n**🎭 Gᴇɴʀᴇᴤ** : </b>: {genres} \n\n**📆 Yᴇᴀʀ** : <a href={url}/releaseinfo>{year}</a> \n\n**🌟 Rᴀᴛɪɴɢ** : <a href={url}/ratings>{rating}</a> \n\n**📀 Rᴜɴᴛɪᴍᴇ** :  {runtime} Minutes \n\n**📆 Rᴇʟᴇᴀᴤᴇ Iɴғᴏ** : {release_date} \n\n**✅ Powered by** : **[ DaDa Linkz ](t.me/dada_linkz)**")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "**🎞 Tɪᴛʟᴇ** : <a href={url}>{title}</a> \n\n**🎭 Gᴇɴʀᴇᴤ** : </b>: {genres} \n\n**📆 Yᴇᴀʀ** : <a href={url}/releaseinfo>{year}</a> \n\n**🌟 Rᴀᴛɪɴɢ** : <a href={url}/ratings>{rating}</a> \n\n**📀 Rᴜɴᴛɪᴍᴇ** :  {runtime} Minutes \n\n**📆 Rᴇʟᴇᴀᴤᴇ Iɴғᴏ** : {release_date} \n\n**✅ Powered by** : **[ TSP THUNDER 4.0 Official ](t.me/TSPTHUNDER4OFFICIAL)**")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), False)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)

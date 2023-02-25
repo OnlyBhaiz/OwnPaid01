@@ -37,7 +37,7 @@ async def save_group(bot, message):
             await bot.leave_chat(message.chat.id)
             return
         buttons = [[
-            InlineKeyboardButton('Movies Channel ⚡', url=f"https://t.me/dada_linkz"),
+            InlineKeyboardButton('Movies Channel ⚡', url=f"https://t.me/AloneX_Bots"),
             InlineKeyboardButton('Developer 🌻', url='https://t.me/dadaxbhai')
         ]]
         reply_markup=InlineKeyboardMarkup(buttons)
@@ -54,10 +54,10 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
-                video="https://telegra.ph/file/ee9575368b922ab41f313.mp4",                                               
+                video="",                                               
                                                  caption=f'<b>Hᴇʏ, {u.mention} 👋🏻\nWᴇʟᴄᴏᴍᴇ Tᴏ Oᴜʀ Gʀᴏᴜᴘ {message.chat.title}\n\nFind Any Media ! if You Need Any Movie Then Enter The Movie Name + Years. 👍\n\nGuys Enter Only movie Or Webseries Name like This 👇\nMahaan ✅\nMahaan 2022 ✅\nMahaan in Tamil ❌\nVilangu  ✅\nVilangu  S01 ✅\nVilangu All Season ❌</b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Movies Channel ⚡', url='http://t.me/dada_linkz') ],
-                                                                                      [ InlineKeyboardButton('Developer 🌻', url='https://t.me/dadaxbhai') ]
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('Movies Channel ⚡', url='http://t.me/TSPTHUNDER4OFFICIAL') ],
+                                                                                      [ InlineKeyboardButton('', url='') ]
                                                                                     ] )
                 )
 

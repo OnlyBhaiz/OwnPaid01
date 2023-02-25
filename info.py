@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '17271772'))
 API_HASH = environ.get('API_HASH', '897542330c90728e4e7fef57f42f9c79)
-BOT_TOKEN = environ.get('BOT_TOKEN', "5843935085:AAGUJ1LaYloPotpIbZRBYcZUGgEpYdNJMqo")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5910940815:AAEBzFGsC38tI5EjL3m6CiDwkXi1vaaJ9lY")
 
 #Port
 PORT = environ.get("PORT", "8080")
@@ -25,7 +25,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/7e1e3599d4c6f35342294.jpg https://telegra.ph/file/0053dea854ddf8c70028b.jpg https://telegra.ph/file/146fa3677b70828b74282.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1046893783').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1046893783 2131967391').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001840435951').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []

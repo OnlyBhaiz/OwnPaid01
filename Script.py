@@ -14,18 +14,18 @@ def is_enabled(value, default):
 class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://t.me/dada_linkz')
     START_TXT = environ.get("START_TXT", '''<b>Hey Vro</b>...{},\n\n<b>I Can Provide MOVIES/SERIES And Lot More... Don't Waste Your Time by Looking To Add Me To Your Group & Enjoy Meh Power🤌🏻😎 </b>''')
-    HELP_TXT = """<b> {},<b>Vaadi Va Nee Varuvanu Enaku Theriyum 😋 ! Apodiye Join Panitu Pooo 👀</b> <a href=https://t.me/DaDa_Linkz></b><b>DaDa Linkz</b></a>"""
+    HELP_TXT = """<b> {},<b>Join And Get New Movies 😉</b> <a href=https://t.me/TSPTHUNDER4OFFICIAL></b><b>TSP THUNDER 4.0 Official</b></a>"""
     ABOUT_TXT = """
 ╭────[ <b>About Me 🤧</b> ]────⍟
 │
-├⍟ My Name : <b>DaDa Auto Filter</b> ⚡
-├⍟ Developer : <a href=https://t.me/DaDa_Offil></b><b>DaDa Bhai</b></a>
+├⍟ My Name : <b>{}</b> ⚡
+├⍟ Developer : <a href=https://t.me/AloneX_Bots/113></b><b>Alone X Bots 🎭</b></a>
 ├⍟ Version : v1.0.1 [ Beta ]
 ├⍟ Server : <a href=https://t.me/DaDaXBhai/12></b><b>24/7 Free Host</b></a>
 ├⍟ Language : Python 3.10.3
 ├⍟ Framework : Pyrogram 1.4.16 
 │
-╰────[ <a href=https://t.me/DaDa_linkz></b><b>DaDa Linkz</b></a> ]────⍟"""
+╰────[ <a href=https://t.me/TSPTHUNDER4OFFICIAL></b><b>TSP THUNDER 4.0 Official Origin</b></a> ]────⍟"""
 
     SOURCE_TXT = """<b>it's Not Open Source Project</b>
 

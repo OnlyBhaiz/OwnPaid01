@@ -384,7 +384,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'https://hypershort.com/api'
+    url = f'http://atglinks.com/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,        
               }

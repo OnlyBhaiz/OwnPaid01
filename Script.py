@@ -16,7 +16,7 @@ class script(object):
     START_TXT = environ.get("START_TXT", '''<b>Hey Vro</b>...{},\n\n<b>I Can Provide MOVIES/SERIES And Lot More... Don't Waste Your Time by Looking To Add Me To Your Group & Enjoy Meh Power🤌🏻😎 </b>''')
     HELP_TXT = """<b> {},<b>Join And Get New Movies 😉</b> <a href=https://t.me/TSPTHUNDER4OFFICIAL></b><b>TSP THUNDER 4.0 Official</b></a>"""
     ABOUT_TXT = """
-╭────[ <b>About Me 🤧</b> ]────⍟
+╭────[ <b>About Me 🥰</b> ]────⍟
 │
 ├⍟ My Name : <b>{}</b> ⚡
 ├⍟ Developer : <a href=https://t.me/AloneX_Bots/113></b><b>Alone X Bots 🎭</b></a>
@@ -25,7 +25,7 @@ class script(object):
 ├⍟ Language : Python 3.10.3
 ├⍟ Framework : Pyrogram 1.4.16 
 │
-╰────[ <a href=https://t.me/TSPTHUNDER4OFFICIAL></b><b>TSP THUNDER 4.0 Official Origin</b></a> ]────⍟"""
+╰────[ <a href=https://t.me/TSPTHUNDER4OFFICIAL></b><b>TSP THUNDER 4.0 Official</b></a> ]────⍟"""
 
     SOURCE_TXT = """<b>it's Not Open Source Project</b>
 
